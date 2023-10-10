@@ -52,4 +52,6 @@ void main(List<String> args) {
   print(spisok.reversed); //(44, false, 22, 22, dart, SDK, 3, 4.4, 3, 1, 33)
   print(spisok.reversed
       .toList()); //[44, false, 22, 22, dart, SDK, 3, 4.4, 3, 1, 33]
+  spisok.clear();
+  print(spisok); //[]
 }
